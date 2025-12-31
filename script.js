@@ -7,9 +7,9 @@ function openLetter() {
   showPage(0);
 }
 
-function showPage(index) {
+function showPage(i) {
   pages.forEach(p => p.classList.remove('active'));
-  pages[index].classList.add('active');
+  pages[i].classList.add('active');
 }
 
 function nextPage() {
